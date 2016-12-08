@@ -254,7 +254,7 @@ void STM_EVAL_PBInit(void)
 
   /* Configure Button pin as input */
 
-	 GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6|GPIO_Pin_5; //KEY0 KEY1 KEY2对应引脚
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6|GPIO_Pin_5; //KEY0 KEY1 KEY2对应引脚
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;//普通输入模式
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100M
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
